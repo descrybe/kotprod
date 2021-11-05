@@ -3,7 +3,7 @@ import '../scss/header.scss';
 
 const Header = () => {
     return (
-        <div>
+        <div id='header'>
 
         </div>
     )
