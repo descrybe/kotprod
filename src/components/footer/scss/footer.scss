@@ -1,0 +1,16 @@
+.contacts {
+    &__header {
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 30px 100px;
+        li {
+            font-size: 1.25rem;
+            padding-top: 12px;
+        }
+    }
+}
