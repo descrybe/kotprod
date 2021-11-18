@@ -8,10 +8,6 @@ const videos2 = [1, 2, 3];
 const videos3 = [1, 2, 3];
 
 export default class VideoGrid extends React.PureComponent {
-    constructor() {
-        super();
-    }
-
     render() {
         return (
             <div className='video-grid'>

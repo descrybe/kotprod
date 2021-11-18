@@ -13,5 +13,10 @@
         flex-shrink: 1;
         flex-basis: 0;
         height: 350px;
+        border: 1px solid transparent;
+
+        &:hover {
+            border: 1px solid red;
+        }
     }
 }
