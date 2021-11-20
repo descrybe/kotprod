@@ -1,46 +1,8 @@
-.expanded-video-widget {
-    &__wrapper {
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #686868c7;
-        top: 0; bottom: 0;
-        left: 0; right: 0;
-        width: 100vw;
-        height: 100vh;
-    }
-
-    &__main-container {
-        background: black;
-        width: 90%;
-        height: 80%;
-        display: flex;
-    }
-
-    &__description {
-        flex-basis: 35%;
-        height: 100%;
-    }
-
-    &__video-container {
-        flex-basis: 65%;
-        height: 100%;
-        background: blue;
-    }
-
-    &__close-button {
-        border: none;
-        background: none;
-        color: white;
-        font-size: 20px;
-    }
+.video-expanded {
+    position: fixed;
+    display: none;
 }
 
 .opened {
-    display: flex;
-}
-
-.closed {
-    display: none;
+    display: block;
 }

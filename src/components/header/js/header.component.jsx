@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='logo-wrapper'>
-                <img src={logo} className='logo' alt='main-frame'/>
+                <img src={logo} className='logo'/>
             </div>
             <HeaderMenu items={menuItems}/>
         </div>
