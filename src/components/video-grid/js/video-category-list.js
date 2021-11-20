@@ -1,13 +1,15 @@
 import React from 'react';
 import VideoItem from './video-item';
 
-const VideoCategoryList = ({ videos }) => {
-
+const VideoCategoryList = (props) => {
+    
     return (
         <ul className='video-category__list'>
-            {videos.map(v => {
+            {props.videos.map(v => {
                 return (
-                    <VideoItem key={Math.random() * v} video={v} />
+                    <VideoItem
+                        key={Math.random() * v} 
+                        video={v} />
                 )
             })}
         </ul>
