@@ -15,10 +15,19 @@ class VideoItem extends React.Component {
         this.setState({
             expanded: true,
         });
+
+        document.body.classList.add('modal-opened');
+    }
+
+    _onCloseButtonClick = () => {
+        this.setState({
+            expanded: true,
+        });
+
+        document.body.classList.remove('modal-opened');
     }
 
     render() {
-        console.log(this.state)
         return (
             <li className='video-category__list-item'
                 onClick={this._expandVideoOnClick}>

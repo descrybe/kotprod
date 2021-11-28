@@ -3,19 +3,30 @@ import VideoCategoryList from './video-category-list';
 
 import '../scss/video-grid.scss';
 
-const videos1 = [1, 2, 3];
-const videos2 = [1, 2, 3];
-const videos3 = [1, 2, 3];
+const categories = [
+    {
+        title: 'ФИЛЬМЫ',
+        videos: [1, 2, 3],
+    },
+    {
+        title: 'КОММЕРЦИЯ',
+        videos: [1, 2, 3],
+    },
+    {
+        title: 'КЛИПЫ',
+        videos: [1, 2, 3],
+    }
+]
 
 export default class VideoGrid extends React.PureComponent {
     render() {
         return (
             <div className='video-grid'>
-                <VideoCategoryList videos={videos1}/>
+                <VideoCategoryList categories={categories[0]}/>
                 <hr />
-                <VideoCategoryList videos={videos2}/>
+                <VideoCategoryList categories={categories[1]}/>
                 <hr />
-                <VideoCategoryList videos={videos3}/>
+                <VideoCategoryList categories={categories[2]}/>
             </div>
         )
     }
