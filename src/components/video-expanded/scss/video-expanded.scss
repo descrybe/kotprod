@@ -13,6 +13,7 @@
     }
 
     &__header {
+        padding: 20px;
     }
     
     &__body {
@@ -23,6 +24,7 @@
         width: 90%;
         height: 80%;
         display: flex;
+        flex-direction: column;
     }
 
     &__description {
@@ -44,6 +46,8 @@
     }
 
     &__close-button {
+        cursor: pointer;
+        position: relative;
         border: none;
         background: none;
         color: white;

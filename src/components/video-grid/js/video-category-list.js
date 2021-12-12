@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoItem from './video-item';
+import VideoItem from './video-grid-item';
 
 const VideoCategoryList = ({ categories }) => {    
     return (

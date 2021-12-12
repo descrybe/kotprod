@@ -1,4 +1,6 @@
 import React from 'react';
+import Context from '../../video-grid/context';
+import { useContext } from 'react';
 import '../scss/video-expanded.scss';
 
 const videoInfos = [
@@ -15,12 +17,21 @@ const videoInfos = [
     }
 ];
 
-const VideoExpanded = ({ opened }) => {
+const VideoExpanded = () => {
+    const { opened, setOpened } = useContext(Context);
+
+    const _onClickClose = () => {
+        setOpened(false);
+        document.body.classList.remove('modal-opened');
+    }
+
     return (
         <div className={`expanded-video-widget__wrapper ${opened ? 'opened' : 'closed'}`}>
             <div className='expanded-video-widget__main-container'>
                 <div className='expanded-video-widget__header'>
-                    <button className='expanded-video-widget__close-button'>Закрыть</button>
+                    <button
+                        className='expanded-video-widget__close-button'
+                        onClick={_onClickClose}>Закрыть</button>
                 </div>
                 <div className='expanded-video-widget__body'>
                     <div className='expanded-video-widget__description'>
