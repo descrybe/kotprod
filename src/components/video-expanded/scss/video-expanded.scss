@@ -13,16 +13,20 @@
     }
 
     &__header {
+        display: flex;
+        justify-content: flex-end;
         padding: 20px;
     }
     
-    &__body {
+    &__body {    
+        display: flex;
+        height: 100%;
     }
 
     &__main-container {
         background: black;
         width: 90%;
-        height: 80%;
+        height: 70%;
         display: flex;
         flex-direction: column;
     }
@@ -42,7 +46,9 @@
 
     &__video-container {
         flex-basis: 70%;
-        height: 100%;
+        position: relative;
+        padding-bottom: 56.25%; 
+        height: 0;
     }
 
     &__close-button {

@@ -10,11 +10,17 @@ html, body {
     padding: 0;
     height: 100%;
     @include font;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body {
     padding: 0 40px;
     background-color: #000;
+}
+
+body::-webkit-scrollbar {
+    display: block;
 }
 
 .modal-opened {
