@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kotprod/static/css/main.e5507b1c.chunk.css",
+    "main.js": "/kotprod/static/js/main.276bda3c.chunk.js",
+    "main.js.map": "/kotprod/static/js/main.276bda3c.chunk.js.map",
+    "runtime-main.js": "/kotprod/static/js/runtime-main.cb7e7d9b.js",
+    "runtime-main.js.map": "/kotprod/static/js/runtime-main.cb7e7d9b.js.map",
+    "static/js/2.f58925bc.chunk.js": "/kotprod/static/js/2.f58925bc.chunk.js",
+    "static/js/2.f58925bc.chunk.js.map": "/kotprod/static/js/2.f58925bc.chunk.js.map",
+    "index.html": "/kotprod/index.html",
+    "static/css/main.e5507b1c.chunk.css.map": "/kotprod/static/css/main.e5507b1c.chunk.css.map",
+    "static/js/2.f58925bc.chunk.js.LICENSE.txt": "/kotprod/static/js/2.f58925bc.chunk.js.LICENSE.txt",
+    "static/media/white-logo.88fe9404.png": "/kotprod/static/media/white-logo.88fe9404.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb7e7d9b.js",
+    "static/js/2.f58925bc.chunk.js",
+    "static/css/main.e5507b1c.chunk.css",
+    "static/js/main.276bda3c.chunk.js"
+  ]
+}
