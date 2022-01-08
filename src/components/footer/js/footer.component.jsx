@@ -2,7 +2,6 @@ import React from 'react';
 import '../scss/footer.scss';
 
 const Footer = (props) => {
-    console.log(props);
     const { city, phone, email, instagram } = props.contacts;
     return (
         <div id='footer'>

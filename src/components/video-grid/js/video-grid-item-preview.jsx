@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Context from '../context';
 
-const VideoPreview = ({ video }) => {
+const VideoPreview = ({ videoPreview }) => {
     const { setOpened } = useContext(Context);
 
     const _expandVideoOnClick = () => {
@@ -10,7 +10,7 @@ const VideoPreview = ({ video }) => {
     }
 
     return (
-        <div className='video-preview__wrapper' onClick={_expandVideoOnClick}>{video}</div>
+        <div className='video-preview__wrapper' onClick={_expandVideoOnClick}>{videoPreview}</div>
     )
 }
 

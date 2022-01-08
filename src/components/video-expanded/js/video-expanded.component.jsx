@@ -4,7 +4,7 @@ import Context from '../../video-grid/context';
 import VideoDescription from './video-description';
 import '../scss/video-expanded.scss';
 
-const VideoExpanded = () => {
+const VideoExpanded = ({ videoId }) => {
     const { opened, setOpened } = useContext(Context);
     const [isVideoStopped, setVideoStopped] = useState(false);
 
@@ -26,7 +26,7 @@ const VideoExpanded = () => {
                     <VideoDescription />
                     <div className='expanded-video-widget__video-container'>
                         <Vimeo
-                            video='19231868'
+                            video={videoId}
                             paused={isVideoStopped}
                             responsive={true}
                         />

@@ -1,20 +1,21 @@
 import React from 'react';
 import VideoItem from './video-grid-item';
 
-const VideoCategoryList = ({ categories }) => {    
+const VideoCategoryList = ({ category }) => {
     return (
         <div className='video-category'>
-            <h2 className='video-category__title'>{categories.title}</h2>
+            <h2 className='video-category__title'>{category.title}</h2>
             <ul className='video-category__list'>
-                {categories.videos.map(v => {
+                {category.videos.map(video => {
                     return (
                         <VideoItem
-                            key={Math.random() * v} 
-                            video={v} />
+                            key={Math.random() + 1}
+                            videoInfo={video}
+                        />
                     )
                 })}
             </ul>
-        </div>
+        </div >
     )
 }
 
