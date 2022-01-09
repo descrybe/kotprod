@@ -3,8 +3,10 @@ $hover-color: #2196f3;
 
 .header {
     display: flex;
-    padding: 0 40px;
-    @include generic-padding();
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
 }
 
 .header-menu {
