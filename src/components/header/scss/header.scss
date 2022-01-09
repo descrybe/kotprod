@@ -1,6 +1,10 @@
+@import '../../../helpers/mixins.scss';
+$hover-color: #2196f3;
+
 .header {
     display: flex;
-    justify-content: space-between;
+    padding: 0 40px;
+    @include generic-padding();
 }
 
 .header-menu {
@@ -11,23 +15,22 @@
 .header-menu__item {
     display: flex;
     align-items: center;
-    font-weight: 700;
-    padding: 40px;
-    height: 30px;
-    box-sizing: border-box;
+    height: 100%;
     border: 1px solid transparent;
     border-radius: 5px;
 
     &-link {
-        font-size: 22px;
+        padding: 18px;
+        font-size: 18px;
+        font-weight: 700;
         color: white;
         text-decoration: none;
     }
 
     &:hover {
         cursor: pointer;
-        background: #2196f3;
-        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3;
+        background: $hover-color;
+        box-shadow: 0 0 10px $hover-color, 0 0 40px $hover-color;
         border: 1px solid 2196f3;
     }
 }

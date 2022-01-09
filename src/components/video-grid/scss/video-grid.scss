@@ -1,5 +1,7 @@
-.video-grid {
+@import '../../../helpers/mixins.scss';
 
+.video-grid {
+    @include generic-padding();
 }
 
 .video-category {

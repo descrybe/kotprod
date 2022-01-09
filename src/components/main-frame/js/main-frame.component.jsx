@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../../header';
+import VideoReelsPreview from '../../video-reels-preview';
 
 const MainFrame = () => {
     return (
         <div className='main-frame'>
-            <Header />
+            <VideoReelsPreview />
         </div>
     )
 };

@@ -1,8 +1,6 @@
 import React from 'react';
 import VideoCategoryList from './video-category-list.jsx';
 
-import '../scss/video-grid.scss';
-
 const categories = [
     {
         title: 'ФИЛЬМЫ',
