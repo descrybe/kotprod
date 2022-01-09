@@ -4,7 +4,7 @@ import VideoItem from './video-grid-item';
 const VideoCategoryList = ({ category }) => {
     return (
         <div className='video-category'>
-            <h2 className='video-category__title'>{category.title}</h2>
+            <h3 className='video-category__title'>{category.title}</h3>
             <ul className='video-category__list'>
                 {category.videos.map(video => {
                     return (
