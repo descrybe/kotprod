@@ -31,8 +31,7 @@ $hover-color: #2196f3;
 
     &:hover {
         cursor: pointer;
-        background: $hover-color;
-        box-shadow: 0 0 10px $hover-color, 0 0 40px $hover-color;
-        border: 1px solid 2196f3;
+        // box-shadow: 0 0 10px $hover-color, 0 0 40px $hover-color;
+        border: 1px solid $hover-color;
     }
 }
