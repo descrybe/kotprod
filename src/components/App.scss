@@ -37,3 +37,8 @@ body::-webkit-scrollbar {
         height: 90px;
     }
 }
+
+.main-frame, .video-grid, .footer {
+    position: relative;
+    top: 0;
+}

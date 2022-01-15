@@ -3,10 +3,12 @@ import Vimeo from '@u-wave/react-vimeo';
 
 const VideoReelsPreview = () => {
     const ratio = window.innerWidth / window.innerHeight;
-    const topPadding = `-${275 / ratio}px`;
+    const containerStyles = {
+        height: `${ratio * 56.25}vh`
+    };
 
     return (
-        <div className='video-reels-preview' style={{ top: topPadding }}>
+        <div className='video-reels-preview' style={containerStyles}>
             <Vimeo
                 video='660423614'
                 muted={true}
