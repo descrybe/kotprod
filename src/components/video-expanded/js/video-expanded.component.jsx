@@ -28,7 +28,7 @@ const VideoExpanded = ({ videoId }) => {
                         <Vimeo
                             video={videoId}
                             paused={isVideoStopped}
-                            responsive={true}
+                            responsive={false}
                         />
                     </div>
                 </div>
