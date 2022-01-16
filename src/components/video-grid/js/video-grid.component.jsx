@@ -68,7 +68,7 @@ export default class VideoGrid extends React.PureComponent {
     render() {
         return (
             <div className='video-grid'>
-                <h2>НАШИ ПРОЕКТЫ</h2>
+                <h2 id='ourprojects'>НАШИ ПРОЕКТЫ</h2>
                 <VideoCategoryList category={categories[0]}/>
                 <hr />
                 <VideoCategoryList category={categories[1]}/>

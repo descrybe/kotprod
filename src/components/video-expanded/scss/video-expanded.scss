@@ -38,14 +38,17 @@
     }
 
     &__description-items {
+        padding-top: 10%;
         list-style: none;
     }
 
     &__description-item {
+        font-size: 18px;
         padding: 10px;
     }
 
     &__video-container {
+        height: 60vh;
         flex-basis: 70%;
         position: relative;
     }
