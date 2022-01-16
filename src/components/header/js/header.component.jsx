@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderMenu from './header-menu';
 import '../scss/header.scss';
-import logo from '../../../assets/white-logo.png'
+import logo from '../../../assets/white-logo_small.png'
 
 const menuItems = [
     {
