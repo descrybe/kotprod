@@ -1,2 +1,2 @@
 KotProd production website
-(c) descrybe 2021-2022
+(c) descrybe 2021-2023
