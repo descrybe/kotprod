@@ -1,8 +1,13 @@
-@import '../helpers/breakpoints.scss';
+@import './helpers/breakpoints.scss';
 
 @mixin font {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
